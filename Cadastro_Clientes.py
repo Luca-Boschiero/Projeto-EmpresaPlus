@@ -39,5 +39,5 @@ def validar_telefone(telefone_bruto):
     if len(telefone) in [9, 10, 11]:
         return telefone
     
-    # se não tiver o tamanho certo, retorna None (inválido)
+    # se não tiver o tamanho certo retorna none (inválido)
     return None
